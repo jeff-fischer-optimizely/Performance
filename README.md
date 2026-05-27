@@ -57,12 +57,6 @@ flowchart TD
     SQL -->|Slow Responses| BLOCK
 
     HC -.->|Conservative Growth| SCALE
-
-    style STARVE fill:#ff4d4d,color:#fff
-    style LAT fill:#ff884d,color:#fff
-    style HC fill:#ffd24d,color:#000
-    style APP fill:#ff6666,color:#fff
-    style BLOCK fill:#ff9999,color:#000
 ```
 
 ### Key architectural idea
